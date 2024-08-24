@@ -1,0 +1,71 @@
+*{
+    text-decoration: none;
+    list-style: none;
+  }
+
+  .body {
+    background-image: image('');
+    background-color: brown;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .judul {
+    color: aqua;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav {
+    display: flex;
+  }
+  
+  .navbar .headline {
+    color: black;
+    font-weight: 500;
+    margin-left: 50px;
+  }
+  
+  .navbar .headline:hover {
+    color: rgb(75, 75, 75);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .about {
+    display: flex;
+    align-items: center;
+  }
+  
+  .text-nama {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+  }
+  
+  .text-sekolah {
+    margin-top: 20px;
+  }
+  
+  .icon-instagram {
+    color: black;
+  }
+  
+  .icon-twitter {
+    margin-left: 20px;
+    color: black;
+  }
+  
+  .about-img {
+    border-radius: 25px;
+  }
+
+  
